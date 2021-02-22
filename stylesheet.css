@@ -1,0 +1,128 @@
+html {
+    background-image: url("background_img.jpg");
+    margin: 0;
+    color: white;
+}
+
+header img{
+    height: auto;
+    width:100%;
+}
+
+nav{
+    margin: 0px 150px;
+    height: 75px;
+    padding: 10px 10px;
+    background-color: rgba(189, 200, 235, 0.377);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    margin: 0px 150px;
+    text-align: center;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+}
+
+main h1{
+    font-size: 45px;
+}
+
+main h2{
+    font-size: 30px;
+    font-weight: 900;
+} 
+
+form {
+    background-color: rgba(231, 232, 255, 0.747);
+    margin: 20px 150px;
+    padding: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid   rgb(150, 150, 150);
+    border-radius: 1%;
+    height: 350px;
+}
+
+.template {
+    display: flex;
+    justify-content: space-between;
+}
+
+.template-item{
+    width: 48%
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid  rgb(150, 150, 150);
+    border-radius: 8px;
+}
+
+
+::placeholder {
+    color: rgba(128, 128, 128, 0.534);
+    font-size: 15px;
+    padding: 8px;
+}
+
+textarea {
+    color: rgba(128, 128, 128, 0.534);
+    width: 100%;
+    height: 230px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid  rgb(150, 150, 150);
+    border-radius: 8px;
+    font-size: 15px;
+    resize: none;
+  }
+
+#submit {
+    width: 150px;
+    background-color: rgb(59, 139, 231);
+    padding: 10px 15px;
+    border: 2px solid  rgb(84, 87, 160);
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+}
+
+
+footer{
+    margin: 15px 150px;
+    padding: 15px 150px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: rgba(189, 200, 235, 0.377);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0px;
+}
+
+footer a{
+    color: rgb(109, 145, 201);
+    text-decoration: none;
+}
+
+hr {
+    width: 500px;
+    color: grey;
+}
